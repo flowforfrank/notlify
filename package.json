@@ -1,12 +1,14 @@
 {
     "scripts": {
         "start": "snowpack dev",
+        "start:server": "json-server --watch db.json",
         "build": "snowpack build",
         "test": "echo \"This template does not include a test runner by default.\" && exit 1"
     },
     "devDependencies": {
-        "snowpack": "3.3.7",
-        "@snowpack/plugin-sass": "1.4.0"
+        "@snowpack/plugin-sass": "1.4.0",
+        "json-server": "0.16.3",
+        "snowpack": "3.3.7"
     },
     "dependencies": {
         "react": "17.0.2",
