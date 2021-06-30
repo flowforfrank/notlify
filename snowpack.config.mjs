@@ -2,6 +2,8 @@
 export default {
   mount: {
     /* ... */
+    public: '/',
+    src: '/'
   },
   plugins: [
     /* ... */
